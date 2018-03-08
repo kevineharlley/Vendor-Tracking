@@ -1,0 +1,58 @@
+<html>
+
+<head>
+	<title>MiiHor: The Vendor Tracking Website</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="The world's best vendor tracking website">
+	<meta name="keywords" content="vendor,tracking">
+	<meta name="author" content="Kevin Harlley">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="homestyle.css">
+</head>
+<body>
+	<div id="miihorheader">
+		<header> 
+			MiiHor: The Vendor Tracking Website
+		</header>
+	</div>
+
+	<nav>
+		<div class="clearfix">
+			<ul id="menu">
+				<li><a href="home.html"> Home </a></li>
+				<li><a href="contactus.html"> Contact Us </a></li>
+				<li><a href="login.html"> Log In </a></li>
+				<li><a href="aboutus.html"> About Us </a></li>
+			</ul>
+		</div>
+	</nav>	
+	<div class="clearfix">
+	<form action="/action_page.php" class="login">
+		<h2> Vendor Login</h2>
+		Username:<br>
+		<input type="text" name="username" value="">
+		<br>
+		Password:<br>
+		<input type="text" name="password" value="">
+		<br><br>
+		<input type="submit" value="login">
+		<br><br>
+		<a href="newVendor.html" class="button"> New Vendor </a> 
+	</form>
+	<form action="/action_page.php" class="login">
+		<h2>Customer Login</h2>
+		Username:<br>
+		<input type="text" name="username" value="">
+		<br>
+		Password:<br>
+		<input type="text" name="password" value="">
+		<br><br>
+		<input type="submit" value="login">
+		<br><br>
+		<a href="newCustomer.html" class="button"> New Customer </a> 
+	</form>
+	</div>
+</body>
+<footer style="text-align:center">Copyright &#169 
+2017 MiiHor Company Limited</br> All rights reserved</footer>
+</html>

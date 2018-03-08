@@ -1,0 +1,208 @@
+#miihorheader
+{
+	background-color: #FFFFFF;
+	background-image: url("Pictures/header2.jpg");
+	height: 120px
+}
+
+#miihorfooter
+{
+	background-color: #FFFFFF;
+	height: 120px;
+	float: left;
+}
+
+header
+{
+	color: white;
+	font-size: 80;
+	text-align: center;
+	text-shadow: 2px 2px grey;
+}
+
+nav
+{
+	background-color: gray;
+}
+
+h1
+{
+	text-align: center;
+}
+#map
+{
+	background-color: teal;
+	float: left;
+	width: 70%;
+	height: 70%;
+	margin: 2%;
+}
+
+
+#map::after
+{
+	content: "";
+    clear: both;
+    display: table;
+	width: 100%;
+}
+
+.vend img
+ {
+    position: relative;
+    float: left;
+    width:  20%;
+    height: 20%;
+	margin: 2.5%;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+#message
+{
+	text-align: center;
+	margin: auto;
+}
+
+#menu li
+{
+    float: left;
+	border-right: 1px solid #808080;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	list-style-type: none;
+	padding: 5px;
+}
+
+#menu li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover 
+{
+    background-color: cadetblue;
+}
+
+.clearfix::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+	width: 20%;
+}
+
+#optionsheader
+{
+	text-align: center;
+	text-decoration: underline;
+	color: black;
+	font-size: 1.2em;
+	padding: 0;
+}
+
+#options li
+{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+	border: 16px;
+    text-decoration: none;
+}
+
+#options
+{
+	background-color: darkgrey;
+	list-style-type: none;
+    margin-top: 2%;
+	margin-bottom: 2%;
+	overflow: hidden;
+	float: left;
+	width: 20%;
+}
+
+#optionlist li:hover
+{
+	background-color: #808080;
+}
+
+.login
+{
+	text-align: center;
+	margin: 5% 5% 5% 5%;
+	float: left;
+	border-style: solid;
+	padding: 10%;
+	border-color: green;
+	background-color: #D3D3D3;
+	border-width: 5px;
+	border-radius: 25px;
+	
+}
+
+.about
+{
+	margin: 5% 5% 5% 5%
+}
+
+#mailing
+{
+	width: 40%;
+	float: left;
+	padding: 5%;
+}
+
+#phone
+{
+	width: 40%;
+	float: left;
+	padding: 5%;
+}
+
+form 
+{
+	margin-left: 8%; 
+	border-style: solid;
+	border-width: 5px;
+	border-color: green;
+	width: 14.5%;
+	padding: 5%;
+}
+
+input submit
+{
+	width: 14.5%;
+	padding: 5%;
+}
+
+.button
+{
+	padding: 2px;
+	background-color: teal;
+	border: 2px solid;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.welcome
+{
+	float: left;
+}
+
+.createHeader
+{
+	margin-left: 8% ;
+	padding-left: 5%;
+}
+
+form input
+{
+	margin: 15px 2px;
+}
+	
